@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    function:
+      web:
+        export:
+          debug: true
+
+logging:
+  level:
+    org:
+      springframework:
+        cloud:
+          function: INFO
